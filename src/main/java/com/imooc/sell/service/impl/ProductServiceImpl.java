@@ -20,6 +20,7 @@ import java.util.List;
  */
 @Service
 public class ProductServiceImpl implements ProductService {
+
     @Autowired
     private ProductInfoRepository repository;
 
